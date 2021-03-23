@@ -1,0 +1,78 @@
+Patrones
+
+> Algo que se repite
+> Modelo
+> Guia
+
+ARQUITECTURA MVC
+
+> Hay una base de datos (Modelo)
+(INDEPENDENCIA)
+> Hay un diseño / Hay algo que ve el usuario y el admin (Vista)
+(INDEPENDENCIA)
+> Hay una conexión entre el diseño y la base de datos (Controlador)
+
+
+
+BASE DE DATOS
+
+Productos_Usuario (id, tipo, color, temporada, nombre)
+(1, 'Remera', 'Rojor', 'Outlet', 'Remera roja')
+Productos_Talle_Usuario(id, talle)
+(1, S)
+(1, M)
+
+Productos_Admin (id, tipo, color, temporada, nombre)
+(1, 'Remera', 'Rojor', 'Outlet', 'Remera roja')
+Productos_Talle_Admin (id, talle)
+(1, S)
+(1, M)
+
+in numero1 = 20
+in numero2 = 30;
+
+
+
+
+
+
+ARQUITECTURA POR MÓDULOS
+
+¿Qué partes componen tu aplicación?
+
+Aplicacion (lo que una todo)
+
+	Usuarios
+		Página del showroom
+		Lectura del catálogo
+		Lectura de productos
+		Búsquedas de productos
+
+	Administrador
+		Interfaz del administrador
+		Roles y permisos
+		Lectura y escritura del catálogo
+		Lectura y escritura de productos
+		Busquedas de productos
+		Reportes
+
+
+
+Pensándolo a futuro, la modular.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
