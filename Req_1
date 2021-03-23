@@ -69,9 +69,127 @@ Back-End (SI)
 
 
 
-
-
 BASE DE DATOS
+
+Usuarios (mail, username, password)
+Productos (tipo, color, temporada/outlet, nombre)
+Productos_Talle(id, talle)
+ListaMails ()
+Info_Tienda ()
+
+
+
+ARQUITECTURA DEL SOFTWARE
+
+1. Nueva arquitectura <=
+2. Uso una existente (Framework o Librerías ya existentes / Spring)
+
+
+
+
+
+
+
+
+
+
+
+
+¿Que es un PARADIGMA?
+
+
+¿Que es un PARADIGMA DE PROGRAMACIÓN?
+Un paradigma de programación es la respuesta a la siguiente pregunta: ¿Qué es un software?
+
+
+¿Que es un software?
+> Un conjunto de ordenes que tienen un fin específico.
+> Un diseño
+> Un conjunto de tareas lineales que asignamos al procesador que ejecute.
+> Una herramienta basada en un lenguaje de programación.
+
+Un software es un conjunto de pasos secuenciales (Paradigma secuencial)
+Un software es un conjunto de módulos independientes entre sí (Diseño estructurado / Paradigma por módulos / Paradigma funcional)
+
+¿Que es el PARADIGMA ORIENTADO A OBJETOS?
+
+Un software es un conjunto de entidades independientes (llamadas objetos) relacionadas entre sí (Paradigma Orientado a Objetos)
+
+
+
+
+¿Cómo se crean los objetos?
+
+1) Los objetos se crean a partir de un modelo teórico denominado "Clase". (basada en clases **)
+2) Los objetos se crean como copia de otros objetos. (classless o basada en prototipos)
+
+CAMBIO DE DOCUMENTO DE IDENTIDAD
+A) Se les pide un permiso específico, deben firmar un acuerdo. Luego se envia la petición al correo y, al momento de la entrega pautada para todos los DNI, se te entrega el nuevo.
+B) Decis tu nombre, das el viejo documento y te dan el documento nuevo en el acto.
+
+¿Cuál es más rápido? B
+¿Cuál es más seguro? A
+¿Cuál es más predecible / controlable? A
+Supongamos que el 21/3/2020 anunciaron la renovación OBLIGATORIA de documentos. Pero por fallas administrativas solo hay tiempo hasta el 23/3/2020. ¿Cuál caso sería más eficaz para atender la enorme demanda simultanea de peticiones? B 
+
+1 / A) Lenguajes fuertemente tipados
+
+	Persona num1 = new Persona();
+
+	num1.
+
+2 / B) Lenguajes debilmente tipados
+
+	SCRIPTING
+
+	PHP / Python / ...
+	JavaScript
+
+
+1 / A) Lenguajes basados en clases
+
+	Java .Net PHP Python (... y CASI todos los comerciales)
+
+2 / B) Lenguajes basados en prototipos
+ 
+ 	JavaScript
+
+
+1 / A) Bases de datos SQL
+	MySQL => information_schema
+	PostgreSQL
+	SQL Server
+
+2 / B) Bases de datos NoSQL
+	MongoDb
+	Cassandra
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
